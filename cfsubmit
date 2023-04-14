@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DIRS=$(pwd)
+REV_DIRS=$(echo $DIRS | rev)
+
+IFS='/' read -ra ADDR <<< $REV_DIRS
+
+QUESTION=$(echo ${ADDR[0]} | rev)
+MATCH=$(echo ${ADDR[1]} | rev)
+
+cf submit $MATCH $QUESTION
