@@ -21,3 +21,13 @@ They are placed in the `$PATH` so they are available on the entire machine
 export PATH=$PATH:/home/kunal/scripts
 ```
 
+### Scripts Description
+
+**`bcap.sh`**  Get battery capacity in terminal for arch linux 
+
+**`dayn.sh`**  Night light enable on day using **_`xflux`_**, may only work in india
+
+**`make.sh`**  Shell script to compile c++ code with flags
+
+**`cfsubmit.sh`**   Script to get the contest number and problem name for submitting code on codeforces.com viw cf-tool
+
