@@ -33,3 +33,5 @@ export PATH=$PATH:/home/kunal/scripts
 
 **`cfsubmit.sh`**   Script to get the contest number and problem name for submitting code on codeforces.com viw cf-tool
 
+**`cfrace.sh`**   Script to start a new contest on codeforces require contest id as command line argument
+
